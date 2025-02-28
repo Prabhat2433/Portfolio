@@ -298,6 +298,7 @@ h6 {
 		left: -100%;
 		visibility: visible;
 	}
+   }	
 	.social-links {
     display: flex;
     gap: 20px;
@@ -331,6 +332,23 @@ h6 {
 	visibility: visible;
 	opacity: 1;
 	transform: translateX(-50%) translateY(-5px);
+}
+@media (max-width: 600px) {
+    .social-links {
+        display: flex;
+        justify-content: center;
+        gap: 15px;
+    }
+
+    .social-links a {
+        font-size: 20px;
+    }
+
+    .tooltip {
+        font-size: 12px;
+        padding: 4px 8px;
+        bottom: 150%; /* Adjust positioning */
+    }
 }
 
 /* Mobile Navigation */
