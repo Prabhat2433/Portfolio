@@ -35,14 +35,6 @@
   if (mobileNavToggleBtn) {
     mobileNavToggleBtn.addEventListener('click', mobileNavToogle);
   }
-document.addEventListener("DOMContentLoaded", function () {
-    const mobileNavToggle = document.querySelector(".mobile-nav-toggle");
-    const body = document.querySelector("body");
-
-    mobileNavToggle.addEventListener("click", function () {
-        body.classList.toggle("mobile-nav-active");
-    });
-});
 
   /**
    * Hide mobile nav on same-page/hash links
