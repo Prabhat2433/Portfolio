@@ -734,18 +734,14 @@ section,
 }
 
 .hero img {
-    position: absolute;
-    right: 5%; /* Ensures image stays on the right */
-    bottom: 5%; /* Moves the image upwards */
-		transform: translateY(0);
-    width: auto;
-    max-width: 40%; /* Adjust for better fit */
-    height: auto;
-    object-fit: cover;
-    z-index: 1;
+  position: absolute;
+  inset: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 1;
 }
-
-
 
 
 .hero .container {
